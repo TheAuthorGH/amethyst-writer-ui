@@ -1,0 +1,15 @@
+@use 'sass:color';
+
+$accent-dark: #3f3d4d;
+$accent-darker: color.adjust($accent-dark, $lightness: -9%);
+$accent-light: color.adjust(#a88fac, $lightness: 14%);
+
+// TODO: These should also include font vars
+.theme--amethyst {
+  font-family: 'Open Sans', sans-serif;
+
+  --accent-darker: #{$accent-darker};
+  --accent-dark: #{$accent-dark};
+  --accent-light: #{$accent-light};
+  --box-shadow: 0 8px 17px 0 rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 10%);
+}

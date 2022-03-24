@@ -1,0 +1,1 @@
+{"name":"Amethyst","description":"The original Amethyst Writer theme","class":"theme--amethyst","style":".theme--amethyst {\n  font-family: \"Open Sans\", sans-serif;\n  --accent-darker: #2a2933;\n  --accent-dark: #3f3d4d;\n  --accent-light: #c8b8ca;\n  --box-shadow: 0 8px 17px 0 rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 10%);\n}"}

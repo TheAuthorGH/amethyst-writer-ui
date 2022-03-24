@@ -1,0 +1,399 @@
+/*!****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss ***!
+  \****************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap);
+/*!********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss (1) ***!
+  \********************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap);
+/*!********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss (2) ***!
+  \********************************************************************************************************************/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button,
+select,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  color: inherit;
+  background-color: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  height: 100vh;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  height: 100vh;
+  font-size: 1.6rem;
+}
+
+#app {
+  height: 100%;
+}
+
+/* TODO: Should these be moved to its own file? */
+h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 1.2rem 0;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border: var(--accent-dark) 2px solid;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: var(--accent-darker);
+  white-space: nowrap;
+  transition: background-color, border-color 0.1s ease-out;
+}
+button:hover, button:focus {
+  border-color: var(--accent-light);
+  outline: 0;
+}
+button:active, button.selected {
+  background-color: var(--accent-dark);
+  cursor: default;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.button-group button:not(:last-child) {
+  margin-right: 0.4rem;
+}
+
+select {
+  padding: 0.6rem 1rem;
+  font-size: 1.4rem;
+  border: var(--accent-dark) 2px solid;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color, border-color 0.1s ease-out;
+}
+select:hover, select:focus {
+  border-color: var(--accent-light);
+  outline: 0;
+}
+
+input,
+textarea {
+  padding: 0.8rem;
+  outline: 0;
+  border: var(--accent-dark) 2px solid;
+  border-radius: 4px;
+  transition: background-color, border-color 0.1s ease-out;
+}
+input:hover, input:focus,
+textarea:hover,
+textarea:focus {
+  border-color: var(--accent-light);
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/widgets/document-navigator-widget.vue?vue&type=style&index=0&id=858861fa&lang=scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.widget--navigator-widget {
+  color: var(--accent-light);
+  padding: 0.8rem;
+  background-color: var(--accent-darker);
+  box-shadow: var(--box-shadow);
+}
+.widget--navigator-widget ul {
+  display: flex;
+}
+.widget--navigator-widget button {
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/widgets/toolbar-widget.vue?vue&type=style&index=0&id=41ee104f&lang=scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.widget--toolbar {
+  color: var(--accent-light);
+  background-color: var(--accent-darker);
+  padding: 1.6rem;
+  border-top: 2px var(--accent-dark) solid;
+  box-shadow: var(--box-shadow);
+  overflow-y: auto;
+  max-width: 30rem;
+}
+.widget--toolbar .widget-container .row {
+  border-bottom: var(--accent-light) 1px dotted;
+  padding-bottom: 0.8rem;
+  margin-bottom: 1.6rem;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/writers/plain-text-writer.vue?vue&type=style&index=0&id=c3f164d0&lang=scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.writer--plain-text {
+  height: 100%;
+  display: flex;
+}
+.writer--plain-text textarea {
+  font-size: 1.8rem;
+  height: auto;
+  max-width: 58rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  resize: none;
+  font-family: monospace;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/widgets/writer-widget.vue?vue&type=style&index=0&id=3abd8c75&lang=scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.widget--writer {
+  padding: 2.4rem;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/widgets/preview-widget.vue?vue&type=style&index=0&id=3bcf143c&lang=scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.widget--preview {
+  display: flex;
+  padding: 2.4rem;
+  background-color: #efe9d9;
+  color: #433024;
+}
+.widget--preview .preview-content {
+  font-size: 2.2rem;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  max-width: 44rem;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: auto;
+  line-height: 3.2rem;
+}
+.widget--preview .preview-content h1 {
+  text-align: center;
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+  margin-top: 3.8rem;
+}
+.widget--preview .preview-content h2 {
+  text-align: left;
+  font-size: 2.8rem;
+  margin-bottom: 1.8rem;
+  margin-top: 2.4rem;
+}
+.widget--preview .preview-content p {
+  text-indent: 2.4rem;
+  margin-bottom: 0.6rem;
+}
+.widget--preview .preview-content em {
+  font-style: italic;
+}
+.widget--preview .preview-content strong {
+  font-weight: bold;
+}
+.widget--preview .preview-content details {
+  padding-top: 0.8rem;
+  font-family: sans-serif;
+  font-size: 1.4rem;
+  color: #777777;
+  line-height: 1.4rem;
+  text-align: right;
+}
+.widget--preview .preview-content summary {
+  cursor: pointer;
+  margin-bottom: 0.4rem;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/widgets/section-manager-widget.vue?vue&type=style&index=0&id=3bda9bc5&lang=scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.widget--section-manager {
+  display: flex;
+  flex-direction: column;
+}
+.widget--section-manager button {
+  margin-top: 0.8rem;
+}
+.widget--section-manager ul {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.6rem;
+}
+.widget--section-manager li {
+  display: flex;
+}
+.widget--section-manager .section-button {
+  margin-right: 0.8rem;
+  flex: 1;
+  max-width: 19rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.widget--section-manager input {
+  margin-top: 0.8rem;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/widgets/document-stats-widget.vue?vue&type=style&index=0&id=a28ccf8a&lang=scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.widget--document-stats {
+  display: flex;
+  flex-direction: column;
+}
+.widget--document-stats .document-stat {
+  text-align: right;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/widgets/widget-container.vue?vue&type=style&index=0&id=525f3671&lang=scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.widget-container {
+  display: flex;
+  flex-direction: column;
+}
+.widget-container .row {
+  display: flex;
+  overflow: auto;
+}
+.widget-container .row--greedy-height {
+  flex: 1;
+}
+.widget-container .widget--greedy-width {
+  flex: 1;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/app.vue?vue&type=style&index=0&id=5ef48958&lang=scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+.app-root {
+  height: 100%;
+}
+.app-root > .widget-container {
+  height: 100%;
+}

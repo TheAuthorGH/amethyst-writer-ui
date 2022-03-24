@@ -1,0 +1,1 @@
+{"name":"Botanical","description":"Based on GMK Botanical!","class":"theme--botanical","style":".theme--botanical {\n  font-family: \"Roboto\", sans-serif;\n  --accent-darker: #283731;\n  --accent-dark: #3c5148;\n  --accent-light: #a1b4ab;\n  --box-shadow: 0 8px 17px 0 rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 10%);\n}"}
